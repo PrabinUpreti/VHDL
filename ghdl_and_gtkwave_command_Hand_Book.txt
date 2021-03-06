@@ -1,0 +1,15 @@
+-----------------------------GHDL-------------------------------
+step 1: write .vhdl file and save the compilable code
+step 2: To check syntag 'ghdl -s file.vhdl'
+step 3: Create a testbench file in format filename_tb.vhdl
+step 4: Analise the implement code 'ghdl -a filename.vhdl'
+step 5: Also analysise the test bench code 'ghdl -a filename_tb.vhdl'
+step 6: Elaborate (ie execute) the file 'ghdl -e unitname'
+step 7: Execute (ie run) 'ghdl -r unitname'
+step 8: Also to generate the dump vcd file 'ghdl -r unitname --vcd=filename.vcd'
+-------------------------GTKWave-------------------------------
+gtkwave filename.vcd
+
+
+NOTE::- unitname is the name of the file without extention.
+	the file name of implement, testbench and vcd file must be same.

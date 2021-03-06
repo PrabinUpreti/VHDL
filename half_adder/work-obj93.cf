@@ -1,0 +1,7 @@
+v 4
+file . "ha_tb.vhdl" "a89dcd09d906b9595bd3f3ef9be8e5b2c61ed8a2" "20210306083719.855":
+  entity ha_tb at 1( 0) + 0 on 13;
+  architecture behave of ha_tb at 5( 70) + 0 on 14;
+file . "ha.vhdl" "214b0a3b4928234e93c3299fa55288ab795db555" "20210306083719.857":
+  entity ha at 1( 0) + 0 on 15;
+  architecture behave of ha at 12( 154) + 0 on 16;
